@@ -1,0 +1,57 @@
+@import-normalize; /* bring in normalize.css styles */
+
+/* #light > div {
+  background-color: white;
+  color: black;
+}
+
+#light input {
+  color: black;
+  border-bottom: 1px solid black;
+}
+#light input::placeholder {
+  color: black;
+}
+
+#dark {
+  color: white;
+} */
+
+html {
+  box-sizing: border-box;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Caveat', 'Segoe UI', 'Roboto',
+    'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(270deg, #57a3a3, #0c3b69);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+h1,
+p {
+  margin-top: 0;
+}
+
+h2 {
+  margin-top: 5px;
+  font-size: 28px;
+}
